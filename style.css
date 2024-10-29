@@ -1,123 +1,188 @@
-body {
-    background: url("./images/download\ -\ 2024-04-27T233123.413.jpg");
-    background-size: 100%;
-    margin: 0%;
-}
-
-.header1{
-    padding-bottom: 80px;
-}
-
-.header2{
-    padding-left: 17%;
+body{
+    margin: 0%; 
+    background: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header {
-    background-color: black;
-    height: 150px;
+    background-color: rgba(12, 4, 20, .7);
+    box-shadow: 0 12px 30px rgb(12 4 20 / 60%), 0 4px 148px rgb(12 4 20 / 33%);
+    border-radius: 0px 0px 20px 20px;
+    align-items: stretch;
+    margin: auto;
+    position: relative;
+    z-index: 100;
+    height: 60px;
 }
 
-.header3 {
-    background-color: black;
-    color: white;
-}
-
-.text_table {
-    color: white;
-    padding-left: 5px;
-}
-
-.table_img {
-    padding-left: 100px;
-    padding-top: 20px;
-}
-
-.Albedo{
-    border-radius: 50%;
-    height: 400px; 
-    width: 280px;
-}
-
-.table_text {
-    color: white;
-    padding-left: 50px;
-}
-
-.image1 {
-    padding-top: 70px;
-    padding-left: 390px;
-    border-radius: 50%;
-    filter: brightness(40%);
-}
-
-.table1{
-    color: white;
-    padding-left: 100px;
-    padding-top: 70px;
-}
-
-.table2{
-    color: white;
-    padding-left: 100px;
-}
-
-.text{
- padding-left: 10px;
-}
-
-.table_Albedo{
-    padding-left: 70px;
-}
-
-.red{
-    color: rgba(240, 21, 65, 0.742);
-}
-
-.characher{
-    color: white;
+.money_image{
     padding-left: 20px;
 }
 
-.characher_image{
-    border-radius: 50%;
-    height: 500px; 
-    width: 350px;
+.money{
+    display: flex;
+    float: right;
+    margin-right: 830px;
+    margin-top: 22px;
 }
 
-.table_Characher{
-    padding-left: 170px;
-    padding-top: 70px;
+.circle{
+    margin-left: 0px;
+    display: flex;
+}
+
+.button{
+    border: medium none;
+    background: transparent;
+    background-color: transparent;
+    color: #615249;
+    font-family: 'Silver Dollar', sans-serif;
+    padding: 15px;
+    padding-left: 20px;
+    padding-top: 17px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.main {
+    width: 350px;
+    margin-left: 250px;
+    padding: 30px;
+    padding-left: 60px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-family: 'Silver Dollar', sans-serif;
+    font-size: 15px;
+    margin-top: 60px;
+}
+ 
+.btn {
+    width: 112px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-family: 'Cutive Mono', sans-serif;
+    background-color: rgb(0 0 0 / 23%);
     color: white;
 }
 
-.table_Characher2{
-    padding-left: 170px;
+.converter_text{
+    font-size: 30px;
+    color: #ab9885;
 }
 
-.angel{
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
+.input-group-text{
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-.table_angel{
-    padding-left: 400px;
-    padding-top: 100px;
-    color: rgb(215, 0, 0);
+#fromCurrency{
+    border: medium none;
+    background: transparent;
+    background-color: transparent;
+    font-family: 'Cutive Mono', sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.table3{
-    color: rgb(215, 0, 0);
-    padding-left: 170px;
-    padding-top: 70px;
+#toCurrency{
+    border: medium none;
+    background: transparent;
+    background-color: transparent;
+    font-family: 'Cutive Mono', sans-serif;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.table4{
-    color: rgb(215, 0, 0);
-    padding-left: 170px;
+#amount{
+    border: medium none;
+    background-color: rgb(0 0 0 / 9%);
+    width: 80px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Cutive Mono', sans-serif;
 }
 
-.margin{
-    padding-top: 15px;
-    margin: 0%;
+#result{
+    margin-top: 10px;
+    font-family: 'Cutive Mono', sans-serif;
+}
+
+.euro{
+    margin-top: 200px;
+    background-image: url(./images/background2.png);
+    height: 340px;
+    width: 1481px;
+}
+
+.image{
+    background-color: rgb(0 0 0 / 0.5);
+    border-radius: 10px;
+}
+
+.slider-item {
+    height: 100%;
+    aspect-ratio: 1/1;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+   
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+   
+    opacity: 0;
+    transition: 0.25s;
+   }
+   
+   .selected {
+    z-index: 2;
+    opacity: 1;
+   }
+
+   .button1 {
+    padding: 30px 20px;
+    font-size: 2em;
+    border-radius: 20px;
+    cursor: pointer;
+   }
+
+#image{
+    background-color: rgb(0 0 0 / 0.5);
+    border-radius: 10px;
+}
+
+.container {
+    width: 770px;
+    height: 250px;
+    margin: auto;
+    padding: 10px;
+    text-align: justify;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ab9885;
+    font-family: 'Silver Dollar', sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+   }
+
+.text_euro{
+    color: #615249;
+    font-family: 'Silver Dollar', sans-serif;
+    font-size: 30px;
+    margin-left: 120px;
+    padding-top: 50px;
+}
+
+.text_bottom{
+    color: white;
 }
