@@ -1,0 +1,123 @@
+body {
+    background: url("./images/download\ -\ 2024-04-27T233123.413.jpg");
+    background-size: 100%;
+    margin: 0%;
+}
+
+.header1{
+    padding-bottom: 80px;
+}
+
+.header2{
+    padding-left: 17%;
+}
+
+.header {
+    background-color: black;
+    height: 150px;
+}
+
+.header3 {
+    background-color: black;
+    color: white;
+}
+
+.text_table {
+    color: white;
+    padding-left: 5px;
+}
+
+.table_img {
+    padding-left: 100px;
+    padding-top: 20px;
+}
+
+.Albedo{
+    border-radius: 50%;
+    height: 400px; 
+    width: 280px;
+}
+
+.table_text {
+    color: white;
+    padding-left: 50px;
+}
+
+.image1 {
+    padding-top: 70px;
+    padding-left: 390px;
+    border-radius: 50%;
+    filter: brightness(40%);
+}
+
+.table1{
+    color: white;
+    padding-left: 100px;
+    padding-top: 70px;
+}
+
+.table2{
+    color: white;
+    padding-left: 100px;
+}
+
+.text{
+ padding-left: 10px;
+}
+
+.table_Albedo{
+    padding-left: 70px;
+}
+
+.red{
+    color: rgba(240, 21, 65, 0.742);
+}
+
+.characher{
+    color: white;
+    padding-left: 20px;
+}
+
+.characher_image{
+    border-radius: 50%;
+    height: 500px; 
+    width: 350px;
+}
+
+.table_Characher{
+    padding-left: 170px;
+    padding-top: 70px;
+    color: white;
+}
+
+.table_Characher2{
+    padding-left: 170px;
+}
+
+.angel{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.table_angel{
+    padding-left: 400px;
+    padding-top: 100px;
+    color: rgb(215, 0, 0);
+}
+
+.table3{
+    color: rgb(215, 0, 0);
+    padding-left: 170px;
+    padding-top: 70px;
+}
+
+.table4{
+    color: rgb(215, 0, 0);
+    padding-left: 170px;
+}
+
+.margin{
+    padding-top: 15px;
+    margin: 0%;
+}
